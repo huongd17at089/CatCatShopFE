@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Catcat shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="img/cat-icon-2.png" >
+        <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="css/product.css" type="text/css" rel="stylesheet">
+    </head>
+    <body onresize="windowResize()">
+        <div id="fb-root">
+            
+        </div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0"></script>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand"><img src="img/cat-icon-2.png" alt="logo">CatcatShop</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productPage.html">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicePage.html">Dịch vụ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogPage.html">Bài viết</a></li>
+                  </ul>
+
+                  <a href="imgPage.html"><i class="material-icons">&#xe88a;</i>Nhà của mèo </a>
+
+                </div>
+            </nav> 
+            <div class="header-bottom">
+                <h2>Sản phẩm</h2>
+                
+            </div>    
+        </header>
+       <main>
+            <div class="container">
+                <div class="content">
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar">
+                        <i class="fas fa-angle-down"></i>
+                        Danh mục
+                      </button>
+                    <div class="sidebar" id="sidebar">
+                        <!--button onclick="closeSidebar()" id="close">Đóng &times;</button-->
+                        
+
+                        <div class="list-product">
+                            <h3>Sản phẩm</h3>
+                            <ul>
+                                <li><a href="productPage.html">Thức ăn</a></li>
+                                <li><a href="productPage.html">Đồ dùng</a></li>
+                                <li><a href="productPage.html">Phụ kiện</a></li>
+                                <li><a href="productPage.html">Chăm sóc</a></li>
+                                <li><a href="productPage.html">Đồ chơi</a></li>
+                                <li><a href="productPage.html">Thuốc thú y</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-service">
+                            <h3>Dịch vụ</h3>
+                            <ul >
+                                <li><a href="servicePage.html">Khách sạn</a></li>
+                                <li><a href="servicePage.html">Spa</a></li>
+                                <li><a href="servicePage.html">Tỉa lông</a></li>
+                                <li><a href="servicePage.html">Huấn luyện</a></li>
+                                <li><a href="servicePage.html">Thú y</a></li>
+                                <li><a href="servicePage.html">Cà phê mèo</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="content-right" id="content-right">
+                        <!--div class="header-content">
+                            <button onclick="openSidebar()">&#9776;</button>
+                        </div-->
+                        <div class="main-content">
+                            <div class="row row-cols-2">
+                                <div class="col">
+                                    <div class="card ">
+                                        <a href="detailPage.html" class="card-link"><img src="img/pd1.jpg" class="card-img-top" alt="pd1"></a>
+                                        <div class="card-body">
+                                          <a href="detailPage.html" class="card-link"><h5 class="card-title">Hạt Royal kitten</h5></a>
+                                          <p class="card-text">100.000 <span>₫</span></p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" >
+                                        <a href="detailPage.html" class="card-link">
+                                            <img src="img/pd2.jpg" class="card-img-top" alt="pd2"></a>
+                                        <div class="card-body">
+                                          <a href="detailPage.html" class="card-link">
+                                              <h5 class="card-title">Hạt Whiskas </h5></a>
+                                              <p class="card-text">100.000 đ</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a href="detailPage.html" class="card-link"><img src="img/pd3.jpg" class="card-img-top" alt="pd3"></a>
+                                        <div class="card-body">
+                                            <a href="detailPage.html" class="card-link"><h5 class="card-title">Pate cá ngừ</h5></a>
+                                            <p class="card-text">100.000 đ</p>
+                                        </div>
+                                      </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="card" >
+                                        <a href="detailPage.html" class="card-link"><img src="img/pd4.jpg" class="card-img-top" alt="pd4"></a>
+                                        <div class="card-body">
+                                            <a href="detailPage.html" class="card-link"><h5 class="card-title">Bánh thưởng</h5></a>
+                                            <p class="card-text">100.000 đ</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card" >
+                                        <a href="detailPage.html" class="card-link"><img src="img/pd5.jpg" class="card-img-top" alt="pd5"></a>
+                                        <div class="card-body">
+                                            <a href="detailPage.html" class="card-link"><h5 class="card-title">Sữa bột</h5></a>
+                                            <p class="card-text">100.000 đ</p>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a href="detailPage.html" class="card-link"><img src="img/pd6.jpg" class="card-img-top" alt="pd6"></a>
+                                        <div class="card-body">
+                                            <a href="detailPage.html" class="card-link"><h5 class="card-title">Cỏ mèo</h5></a>
+                                            <p class="card-text">100.000 đ</p>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--div class="row">
+
+                        <div class="col-lg-3">
+                            
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                           
+                            
+                        </div>
+                    </div-->
+                    <div class="container">
+                        <div class="main-bottom">
+                            <img src="img/bottom-banner.jpg" alt="bottom-banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="row top-footer">
+                <div class="col-lg-4 hidden-md footer-list footer-list-menu">
+                    <h4 class="list-title">Menu</h4>
+                    <ul class="menu-list">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="productPage.html">Sản phẩm</a></li>
+                        <li><a href="servicePage.html">Dịch vụ</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-list footer-list-adress">
+                    <h4 class="list-title">Địa chỉ</h4>
+                    <ul class="Adress-list">
+                        <li><a href="contact.html">Hà Nội</a></li>
+                        <li><a href="contact.html">Đà Nẵng</a></li>
+                        <li><a href="contact.html">HCM</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-list footer-list-contact">
+                    <h4 class="list-title">Liên hệ</h4>
+                    <ul class="contact-list">
+                        <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="img/search.png" alt="Google"></a></li>
+                    </ul>
+     
+                </div>
+            </div>
+            <div class="bottom-footer"> © 2020 Copyright: <a href="#">CatCat</a></div>
+        </footer>
+        <!--script>
+            function openSidebar() {
+              document.getElementById("sidebar").style.display = "inline";
+             
+              document.getElementById("open").style.display = "none";
+              
+            }
+
+            function closeSidebar() {
+              document.getElementById("sidebar").style.display = "none";
+              document.getElementById("open").style.display = "block";
+              
+            }
+            
+            function windowResize(){
+                if(window.screen.width >= 992 )
+                    openSidebar();
+            }
+            
+        </script-->
+    </body>
+</html>
+
+
+

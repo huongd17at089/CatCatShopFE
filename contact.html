@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Catcat shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="img/cat-icon-2.png" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        
+        <link href="css/contact.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="fb-root">
+            
+        </div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0"></script>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand"><img src="img/cat-icon-2.png" alt="logo">CatcatShop</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Giới thiệu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productPage.html">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicePage.html">Dịch vụ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Liên hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogPage.html">Bài viết</a></li>
+                  </ul>
+
+                  <a href="imgPage.html"><i class="material-icons">&#xe88a;</i>Nhà của mèo </a>
+
+                </div>
+            </nav> 
+            <div class="header-bottom">
+                <h2>Liên hệ</h2>
+                
+            </div>    
+        </header>
+        <main>
+            <div class="container">
+                <div class='main-content'>
+                    <div class='row'>
+                        <div class='col-md-6'>
+                            <div class="info">
+                                <h3>Thông Tin</h3>
+                                <div class="fb-page" data-href="https://www.facebook.com/CatCat-109378717425354/?modal=admin_todo_tour" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                                    <blockquote cite="https://www.facebook.com/CatCat-109378717425354/?modal=admin_todo_tour" class="fb-xfbml-parse-ignore">
+                                        <a href="https://www.facebook.com/CatCat-109378717425354/?modal=admin_todo_tour">CatCat facebook page</a>
+                                    </blockquote>
+                                </div>
+                                <div class='detail-info'>
+                                    <p><i class="material-icons">location_on</i><b>Địa chỉ:  </b>...</p>
+                                </div>
+                                <div class='detail-info'>
+                                    <p><i class="material-icons">local_phone</i><b>Hotline:  </b>...</p>
+                                </div>
+                                <div class='detail-info'>
+                                    <p><i class="material-icons">email</i><b>Email:  </b>...</p>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class='col-md-6'>
+                            <div class="requirement-form">
+                                <h3>Yêu cầu - Hợp tác</h3>
+                                <form>
+                                    <div class='row'>
+                                        <div class='col-lg-6 col-md-6 col-sm-12'>
+                                            <input type="text" id="name" name="name" placeholder='Họ tên'><br>
+                                        </div>
+                                        <div class='col-lg-6 col-md-6 col-sm-12'>
+                                            <input type="email" id="email" name="email" placeholder='email'><br>
+                                        </div>
+                                        <div class='col-12'>
+                                            <input type="text" id="phone" name="phone" placeholder='Số điện thoại'><br>
+                                        </div>
+                                        <div class='col-12'>
+                                            <textarea name="message" placeholder='Yêu cầu'></textarea>
+                                        </div>
+                                        <div class='col-lg-4 col-md-5 col-sm-4'>
+                                            <input type="submit" id="submit" value='Gửi yêu cầu'><br>
+                                        </div>
+                                    </div>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='map' class='main-content'>
+                    <div class='row'>
+                        <div class='col-md-4'>
+                            <h3>Hà Nội</h3>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=ha%20noi%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                            <h3>Đà Nẵng</h3>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=ha%20noi%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-4'>
+                            <h3>HCM</h3>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=ha%20noi%20&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="main-bottom">
+                    <img src="img/bottom-banner.jpg" alt="bottom-banner">
+                </div-->
+                
+            </div> 
+        </main>
+        <footer>
+            <div class="row top-footer">
+                <div class="col-lg-4 hiđen-md footer-list footer-list-menu">
+                    <h4 class="list-title">Menu</h4>
+                    <ul class="menu-list">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="productPage.html">Sản phẩm</a></li>
+                        <li><a href="servicePage.html">Dịch vụ</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-list footer-list-adress">
+                    <h4 class="list-title">Địa chỉ</h4>
+                    <ul class="Adress-list">
+                        <li><a href="contact.html">Hà Nội</a></li>
+                        <li><a href="contact.html">Đà Nẵng</a></li>
+                        <li><a href="contact.html">HCM</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-list footer-list-contact">
+                    <h4 class="list-title">Liên hệ</h4>
+                    <ul class="contact-list">
+                        <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="img/search.png" alt="Google"></a></li>
+                    </ul>
+     
+                </div>
+            </div>
+            <div class="bottom-footer"> © 2020 Copyright: <a href="#">CatCat</a></div>
+        </footer>
+    </body>
+</html>
+
+
