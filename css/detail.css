@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+
+header nav{
+    height: fit-content;
+    border-bottom: 2px solid #404040;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Gotu', sans-serif;
+}
+
+#navbarNav ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gotu', sans-serif;
+    color: #004d4d;
+}
+
+#navbarNav>a{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Gotu', sans-serif;
+    color: #004d4d;
+}
+
+
+nav .nav-right{
+    float: right;
+    
+}
+
+/*main*/
+
+.product{
+    margin: 20px 0;
+}
+
+.product .product-img{
+    border: 2px solid gainsboro;
+    cursor: pointer;
+}
+
+
+.product .product-img img{
+    width: 100%;
+}
+
+.product-info{
+    font-family: 'Gotu', sans-serif;
+}
+
+
+
+.product-info .title{
+    font-weight: 900;
+}
+
+.product-info .title h1{
+    color: #1a1a1a;
+}
+
+.product-info .title p{
+    font-size: 20px;
+    color: #00cccc;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.info h4{
+    color: #008080;
+    
+}
+
+
+.info ul{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.info ul li {
+    margin: 10px 0;
+}
+
+.info ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.product-detail ,.relative-product{
+    margin: 20px 0;
+}
+
+
+.iventory h4, .product-detail h4, .relative-product h4{
+     color: #008080;
+     font-family: 'Gotu', sans-serif;
+     border-bottom: 2px solid #00b3b3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+
+ th ,td {
+  padding: 8px;
+  text-align: left;
+  font-family: 'Gotu', sans-serif;
+}
+
+
+.product-detail ul{
+    list-style-position: inside;
+}
+
+.card{
+    width: 15rem;
+    margin: 10px 0;
+}
+
+.main-bottom img{
+    
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+/*footer*/
+
+footer{
+   background-color: #1a1a1a;
+  
+    width: 100%;
+    height: fit-content;   
+        
+}
+
+.top-footer{
+    width: 100%;
+    height: fit-content;
+    border-bottom: 2px solid black;
+}
+
+
+.list-title{
+    color: white;
+    font-family: 'Gotu', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.footer-list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list ul li a{
+    text-decoration: none;
+    color: #737373;
+    font-family: 'Gotu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.menu-list li, .Adress-list li{
+    margin-bottom: 10px;
+}
+
+.contact-list li{
+    margin-bottom: 20px;
+}
+
+.contact-list li a img{
+    width: 10%;
+    height: auto;
+}
+
+.footer-list{
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .top-footer{
+        display: inline-block;
+    }
+    .top-footer .footer-list-menu{
+        display: none;
+    }
+    .top-footer .footer-list-adress{
+        float: left;
+    }
+    
+    .top-footer .footer-list-contact{
+        float: right;
+    }
+    
+}
+
+.bottom-footer{
+    
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+.img-window{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.img-window img{
+    max-width: 80vw;
+    max-height: 80vh;
+}
